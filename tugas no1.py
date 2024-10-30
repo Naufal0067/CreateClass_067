@@ -13,11 +13,6 @@ class PersegiPanjang:
         return f"Persegi panjang, panjang {self.panjang} cm, dan lebar {self.lebar} cm"
     
 
-persegi_p = PersegiPanjang(15,3)
-print(persegi_p)
-print("Keliling:", persegi_p.keliling(),"cm")
-print("Luas:",persegi_p.menghitung_luas(),"cm²")
-    
 def main():
     print("=== Program Persegi Panjang ===")
     
@@ -38,7 +33,7 @@ def main():
         print("\n=== Hasil Perhitungan ===")
         print(persegi_panjang)
         print("Keliling:", persegi_panjang.keliling(), "cm")
-        print("Luas:", persegi_panjang.luas(), "cm²")
+        print("Luas:", persegi_panjang.menghitung_luas(), "cm²")
         
     except ValueError:
         print("Input tidak valid! Harap masukkan angka.")
