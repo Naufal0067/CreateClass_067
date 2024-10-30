@@ -1,4 +1,5 @@
 class PersegiPanjang:
+    #Konstruktor untuk inisialisasi objek PersegiPanjang.
     def __init__(self, panjang, lebar):
         self.panjang = panjang
         self.lebar = lebar
@@ -9,6 +10,8 @@ class PersegiPanjang:
     def menghitung_luas(self):
         return self.panjang * self.lebar
     
+    
+    #Mengembalikan representasi string dari objek PersegiPanjang.
     def __str__(self):
         return f"Persegi panjang, panjang {self.panjang} cm, dan lebar {self.lebar} cm"
     
